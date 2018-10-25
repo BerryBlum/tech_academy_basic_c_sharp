@@ -1,0 +1,7 @@
+C:\Users\Myuri\Documents\GitHub\tech_academy_basic_c_sharp\Math_and_Operators\Math_and_Operators\bin\Debug\Math_and_Operators.exe.config
+C:\Users\Myuri\Documents\GitHub\tech_academy_basic_c_sharp\Math_and_Operators\Math_and_Operators\bin\Debug\Math_and_Operators.exe
+C:\Users\Myuri\Documents\GitHub\tech_academy_basic_c_sharp\Math_and_Operators\Math_and_Operators\bin\Debug\Math_and_Operators.pdb
+C:\Users\Myuri\Documents\GitHub\tech_academy_basic_c_sharp\Math_and_Operators\Math_and_Operators\obj\Debug\Math_and_Operators.csprojAssemblyReference.cache
+C:\Users\Myuri\Documents\GitHub\tech_academy_basic_c_sharp\Math_and_Operators\Math_and_Operators\obj\Debug\Math_and_Operators.csproj.CoreCompileInputs.cache
+C:\Users\Myuri\Documents\GitHub\tech_academy_basic_c_sharp\Math_and_Operators\Math_and_Operators\obj\Debug\Math_and_Operators.exe
+C:\Users\Myuri\Documents\GitHub\tech_academy_basic_c_sharp\Math_and_Operators\Math_and_Operators\obj\Debug\Math_and_Operators.pdb
