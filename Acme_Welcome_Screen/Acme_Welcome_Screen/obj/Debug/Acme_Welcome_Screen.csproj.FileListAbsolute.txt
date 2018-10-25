@@ -1,0 +1,7 @@
+C:\Users\Myuri\Documents\GitHub\tech_academy_basic_c_sharp\Acme_Welcome_Screen\Acme_Welcome_Screen\obj\Debug\Acme_Welcome_Screen.csprojAssemblyReference.cache
+C:\Users\Myuri\Documents\GitHub\tech_academy_basic_c_sharp\Acme_Welcome_Screen\Acme_Welcome_Screen\obj\Debug\Acme_Welcome_Screen.csproj.CoreCompileInputs.cache
+C:\Users\Myuri\Documents\GitHub\tech_academy_basic_c_sharp\Acme_Welcome_Screen\Acme_Welcome_Screen\bin\Debug\Acme_Welcome_Screen.exe.config
+C:\Users\Myuri\Documents\GitHub\tech_academy_basic_c_sharp\Acme_Welcome_Screen\Acme_Welcome_Screen\bin\Debug\Acme_Welcome_Screen.exe
+C:\Users\Myuri\Documents\GitHub\tech_academy_basic_c_sharp\Acme_Welcome_Screen\Acme_Welcome_Screen\bin\Debug\Acme_Welcome_Screen.pdb
+C:\Users\Myuri\Documents\GitHub\tech_academy_basic_c_sharp\Acme_Welcome_Screen\Acme_Welcome_Screen\obj\Debug\Acme_Welcome_Screen.exe
+C:\Users\Myuri\Documents\GitHub\tech_academy_basic_c_sharp\Acme_Welcome_Screen\Acme_Welcome_Screen\obj\Debug\Acme_Welcome_Screen.pdb
