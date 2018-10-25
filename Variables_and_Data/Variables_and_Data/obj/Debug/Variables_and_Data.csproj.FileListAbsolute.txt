@@ -1,0 +1,7 @@
+C:\Users\Myuri\Documents\GitHub\tech_academy_basic_c_sharp\Variables_and_Data\Variables_and_Data\bin\Debug\Variables_and_Data.exe.config
+C:\Users\Myuri\Documents\GitHub\tech_academy_basic_c_sharp\Variables_and_Data\Variables_and_Data\bin\Debug\Variables_and_Data.exe
+C:\Users\Myuri\Documents\GitHub\tech_academy_basic_c_sharp\Variables_and_Data\Variables_and_Data\bin\Debug\Variables_and_Data.pdb
+C:\Users\Myuri\Documents\GitHub\tech_academy_basic_c_sharp\Variables_and_Data\Variables_and_Data\obj\Debug\Variables_and_Data.csprojAssemblyReference.cache
+C:\Users\Myuri\Documents\GitHub\tech_academy_basic_c_sharp\Variables_and_Data\Variables_and_Data\obj\Debug\Variables_and_Data.csproj.CoreCompileInputs.cache
+C:\Users\Myuri\Documents\GitHub\tech_academy_basic_c_sharp\Variables_and_Data\Variables_and_Data\obj\Debug\Variables_and_Data.exe
+C:\Users\Myuri\Documents\GitHub\tech_academy_basic_c_sharp\Variables_and_Data\Variables_and_Data\obj\Debug\Variables_and_Data.pdb
