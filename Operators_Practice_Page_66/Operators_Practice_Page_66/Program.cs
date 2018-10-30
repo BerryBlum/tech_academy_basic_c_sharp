@@ -36,7 +36,7 @@ namespace Operators_Practice_Page_66
             int outPut_5 = userInput_5_Int % 7;
             Console.WriteLine("The remainder of your number divided by 7 is: " + outPut_5);
 
-            Console.Read();
+            Console.ReadLine();
         }
     }
 }
