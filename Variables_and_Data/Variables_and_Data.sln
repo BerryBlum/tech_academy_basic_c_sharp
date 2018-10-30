@@ -3,11 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2048
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Variables_and_Data", "Variables_and_Data.csproj", "{611B2104-8584-49E4-A1F8-E4A88FB34A74}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{611B2104-8584-49E4-A1F8-E4A88FB34A74}.Debug|x86.ActiveCfg = Debug|x86
+		{611B2104-8584-49E4-A1F8-E4A88FB34A74}.Debug|x86.Build.0 = Debug|x86
+		{611B2104-8584-49E4-A1F8-E4A88FB34A74}.Release|x86.ActiveCfg = Release|x86
+		{611B2104-8584-49E4-A1F8-E4A88FB34A74}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {C242D9FF-93BC-4D34-A120-4EAD2BFDB6F4}
+		SolutionGuid = {A7B0FAB4-26FA-4B51-A31E-9D11020AA578}
 	EndGlobalSection
 EndGlobal

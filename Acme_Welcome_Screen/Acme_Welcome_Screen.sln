@@ -3,11 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2048
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Acme_Welcome_Screen", "Acme_Welcome_Screen.csproj", "{AD638CB9-71C9-4CB4-9B13-18B360DDA2E5}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD638CB9-71C9-4CB4-9B13-18B360DDA2E5}.Debug|x86.ActiveCfg = Debug|x86
+		{AD638CB9-71C9-4CB4-9B13-18B360DDA2E5}.Debug|x86.Build.0 = Debug|x86
+		{AD638CB9-71C9-4CB4-9B13-18B360DDA2E5}.Release|x86.ActiveCfg = Release|x86
+		{AD638CB9-71C9-4CB4-9B13-18B360DDA2E5}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {5B1A51B5-27A5-4676-BC95-826C96F1B78E}
+		SolutionGuid = {8C43F6E1-A200-4EAB-9152-051B2BB7CD8E}
 	EndGlobalSection
 EndGlobal

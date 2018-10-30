@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2048
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Daily_Report_Tech_Academy", "Daily_Report_Tech_Academy.csproj", "{D9567705-7084-4B93-BAF5-7A26B5CC6454}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Welcome_screen", "Welcome_screen.csproj", "{E67CF71E-86B8-4FB6-81F3-87CAE6E35F65}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D9567705-7084-4B93-BAF5-7A26B5CC6454}.Debug|x86.ActiveCfg = Debug|x86
-		{D9567705-7084-4B93-BAF5-7A26B5CC6454}.Debug|x86.Build.0 = Debug|x86
-		{D9567705-7084-4B93-BAF5-7A26B5CC6454}.Release|x86.ActiveCfg = Release|x86
-		{D9567705-7084-4B93-BAF5-7A26B5CC6454}.Release|x86.Build.0 = Release|x86
+		{E67CF71E-86B8-4FB6-81F3-87CAE6E35F65}.Debug|x86.ActiveCfg = Debug|x86
+		{E67CF71E-86B8-4FB6-81F3-87CAE6E35F65}.Debug|x86.Build.0 = Debug|x86
+		{E67CF71E-86B8-4FB6-81F3-87CAE6E35F65}.Release|x86.ActiveCfg = Release|x86
+		{E67CF71E-86B8-4FB6-81F3-87CAE6E35F65}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {F9F41C37-1F7F-4765-ADB4-F6341817362A}
+		SolutionGuid = {A71DEF5A-EE1A-4A6D-8BA0-43CE6B23D997}
 	EndGlobalSection
 EndGlobal

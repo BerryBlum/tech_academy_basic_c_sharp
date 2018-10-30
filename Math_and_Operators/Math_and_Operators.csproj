@@ -1,0 +1,79 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{FE1CBBCA-B518-4957-9F44-C85CEB5EBAEA}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>ConsoleApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>Math_and_Operators</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".vs\Math_and_Operators\v15\.suo" />
+    <None Include=".vs\ProjectSettings.json" />
+    <None Include=".vs\slnx.sqlite" />
+    <None Include=".vs\VSWorkspaceState.json" />
+    <None Include="Math_and_Operators\App.config" />
+    <None Include="Math_and_Operators\bin\Debug\Math_and_Operators.exe.config" />
+    <None Include="Math_and_Operators\obj\Debug\Math_and_Operators.csproj.CoreCompileInputs.cache" />
+    <None Include="Math_and_Operators\obj\Debug\Math_and_Operators.csprojAssemblyReference.cache" />
+    <None Include="Math_and_Operators\obj\Release\Math_and_Operators.csproj.CoreCompileInputs.cache" />
+    <None Include="Math_and_Operators\obj\Release\Math_and_Operators.csprojAssemblyReference.cache" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Math_and_Operators\bin\Debug\Math_and_Operators.exe" />
+    <Content Include="Math_and_Operators\bin\Debug\Math_and_Operators.pdb" />
+    <Content Include="Math_and_Operators\Math_and_Operators.csproj" />
+    <Content Include="Math_and_Operators\obj\Debug\Math_and_Operators.csproj.FileListAbsolute.txt" />
+    <Content Include="Math_and_Operators\obj\Debug\Math_and_Operators.exe" />
+    <Content Include="Math_and_Operators\obj\Debug\Math_and_Operators.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Math_and_Operators\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="Math_and_Operators\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="Math_and_Operators\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Math_and_Operators\Program.cs" />
+    <Compile Include="Math_and_Operators\Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Math_and_Operators\bin\Release\" />
+    <Folder Include="Math_and_Operators\obj\Debug\TempPE\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>

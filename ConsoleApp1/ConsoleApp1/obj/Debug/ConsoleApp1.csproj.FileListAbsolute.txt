@@ -1,7 +1,0 @@
-C:\Users\Myuri\Documents\GitHub\tech_academy_basic_c_sharp\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
-C:\Users\Myuri\Documents\GitHub\tech_academy_basic_c_sharp\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
-C:\Users\Myuri\Documents\GitHub\tech_academy_basic_c_sharp\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
-C:\Users\Myuri\Documents\GitHub\tech_academy_basic_c_sharp\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache
-C:\Users\Myuri\Documents\GitHub\tech_academy_basic_c_sharp\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
-C:\Users\Myuri\Documents\GitHub\tech_academy_basic_c_sharp\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
-C:\Users\Myuri\Documents\GitHub\tech_academy_basic_c_sharp\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
