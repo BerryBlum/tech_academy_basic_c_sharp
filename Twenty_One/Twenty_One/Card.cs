@@ -16,4 +16,5 @@ namespace Twenty_One
         public string Suit { get; set; }
         public string Face { get; set; }
     }
+
 }

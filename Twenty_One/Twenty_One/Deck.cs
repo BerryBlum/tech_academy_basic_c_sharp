@@ -8,6 +8,8 @@ namespace Twenty_One
 {
     public class Deck
     {
+        
+
         public Deck()
         {
             Cards = new List<Card>();
@@ -29,5 +31,24 @@ namespace Twenty_One
             }
         }
         public List<Card> Cards { get; set; }
+
+        public void Shuffle(int times = 1)
+        {
+            for (int i = 0; i < times; i++)
+            {
+                List<Card> temp_list = new List<Card>();
+                Random random = new Random();
+                while (Cards.Count > 0)
+                {
+                    int random_index = random.Next(0, Cards.Count);
+                    temp_list.Add(Cards[random_index]);
+                    Cards.RemoveAt(random_index);
+                }
+                this.Cards = temp_list;
+            }
+        }
+
     }
+
+
 }
