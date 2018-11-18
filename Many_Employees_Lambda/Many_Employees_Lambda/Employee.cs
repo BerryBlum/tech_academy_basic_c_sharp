@@ -6,24 +6,21 @@ using System.Threading.Tasks;
 
 namespace Many_Employees_Lambda
 {
-    public class Employee<T> //generic class employee
+    public class Employee //generic class employee
     {
-        public List<string> FName { get; set; }
-        public List<string> LName { get; set; }
-        public List<int> ID { get; set; }
 
-        public Employee() //instantiate the employee so it has properties first name, last name and id
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public int Id { get; set; }
+
+        public void Print_Employee()
         {
-            FName = new List<string>();
-            LName = new List<string>();
-            ID = new List<int>();
+            Console.WriteLine(FirstName + " " + LastName + " " + Id);
         }
-
-
 
         //public void Employee_Fname(string fname)
         //{
-        //    FName.Add(fname);
+        //    fname = emplyeee.FName
         //}
         //public void Employee_Lname(string lname)
         //{
