@@ -8,10 +8,32 @@ namespace Twenty_One
 {
     public class Player
     {
-        public List<Card> Hand { get; set; }
+        public Player(string name, int beginning_balance)
+        {
+            Hand = new List<Card>();
+            Balance = beginning_balance;
+            Name = name;
+        }
+        private List<Card> _hand = new List<Card>();
+        public List<Card> Hand { get { return _hand; } set { _hand = value; } }
         public int Balance { get; set; }
         public string Name { get; set; }
         public bool isActivelyPlaying { get; set; }
+        public bool Stay { get; set; }
+
+        public bool Bet(int amount)
+        {
+            if (Balance - amount < 0)
+            {
+                Console.WriteLine("You don't got the funds bruh");
+                return false;
+            }
+            else
+            {
+                Balance -= amount;
+                return true;
+            }
+        }
 
         public static Game operator +(Game game, Player player)
         {

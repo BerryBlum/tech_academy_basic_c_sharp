@@ -10,6 +10,11 @@ namespace Twenty_One
     {
         public Suit Suit { get; set; } //allows Suit and Face values to be set
         public Face Face { get; set; }
+
+        public override string ToString()
+        {
+            return string.Format("{0} of {1}", Face, Suit);
+        }
     }
     public enum Suit// enums are like a class, good idea to keep one class per file but Suit relates directly to card
     {               //underlying value is int
