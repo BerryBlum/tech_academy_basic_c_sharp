@@ -1,9 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Casino;
+using Casino.Interfaces;
 using System.IO;
+
 
 namespace Twenty_One
 {
@@ -11,13 +10,9 @@ namespace Twenty_One
     {
         static void Main(string[] args)
         {
-            DateTime dateTime = new DateTime(1995, 5, 23, 8, 32, 45);
-            DateTime yearOfGraduation = new DateTime(2013, 6, 1, 16, 34, 22);
+            const string casinoName = "Highway Robbery Casino and Bar";
 
-            TimeSpan ageAtGraduation = yearOfGraduation - dateTime;
-            
-
-            Console.WriteLine("Welcome to the 21 casino robbery, i mean game!");
+            Console.WriteLine("Welcome to the {0}!", casinoName);
             Console.WriteLine("What is your name?");
             string player_name = Console.ReadLine();
 
@@ -30,6 +25,11 @@ namespace Twenty_One
             if (answer == "yes" || answer == "yeah" || answer == "y" || answer == "ya")
             {
                 Player player = new Player(player_name, player_funds);
+                player.Id = Guid.NewGuid();
+                using (StreamWriter file = new StreamWriter(@"C:\Users\Myuri\Logs\log.txt", true))
+                {
+                    file.WriteLine(player.Id);
+                }
                 Game game = new TwentyOneGame();
                 game += player;
                 player.isActivelyPlaying = true;
