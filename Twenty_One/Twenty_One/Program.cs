@@ -16,8 +16,22 @@ namespace Twenty_One
             Console.WriteLine("What is your name?");
             string player_name = Console.ReadLine();
 
-            Console.WriteLine("How much money do you want to play with?");
-            int player_funds = Convert.ToInt32(Console.ReadLine());
+
+            bool validAnswer = false;
+            int player_funds = 0;
+            while (!validAnswer)
+            {
+                Console.WriteLine("How much money do you want to play with?");
+                validAnswer = int.TryParse(Console.ReadLine(), out player_funds);
+                if (!validAnswer)
+                {
+                    Console.WriteLine("Please insert digits only, no decimals");
+                }
+            }
+
+
+
+
 
             Console.WriteLine("Hello, {0}. Would you like to play?", player_name);
             string answer = Console.ReadLine().ToLower();
@@ -35,7 +49,22 @@ namespace Twenty_One
                 player.isActivelyPlaying = true;
                 while(player.isActivelyPlaying && player_funds > 0)
                 {
-                    game.Play();
+                    try
+                    {
+                        game.Play();
+                    }
+                    catch(FraudException)
+                    {
+                        Console.WriteLine("Calling security on your stupid butt!");
+                        Console.ReadLine();
+                        return;
+                    }
+                    catch(Exception)
+                    {
+                        Console.WriteLine("An error occured, please contact your system admin.");
+                        Console.ReadLine();
+                        return;
+                    }
                 }
                 game -= player;
                 Console.WriteLine("Thank you for playing!");
