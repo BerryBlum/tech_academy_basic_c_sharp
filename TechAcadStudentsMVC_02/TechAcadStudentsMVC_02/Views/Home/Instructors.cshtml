@@ -1,0 +1,15 @@
+﻿@using TechAcadStudentsMVC_02.Models
+@model List<Instructor>
+
+@{
+    ViewBag.Title = "Instructors";
+}
+
+<h2>Inatructors</h2>
+
+@{ 
+    foreach(Instructor instructor in Model)
+    {
+        <h4>@instructor.FirstName</h4>
+    }
+}
