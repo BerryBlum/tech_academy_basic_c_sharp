@@ -1,0 +1,9 @@
+
+var x = 9119;
+var y = [];
+foreach(index in x)
+{
+    y += pow(index, 2)
+}
+console.writeline(y);
+console.readkey();
